@@ -9,6 +9,8 @@ This repository contains small Elixir exercises and scripts.
 - `03/modules_and_functions.exs` - module definition, functions, guards, and pipe operator.
 - `04/control_flow_and_recursion.exs` - `case`, `cond`, tagged tuples, and tail recursion.
 - `05/exunit_intro.exs` - basic `ExUnit` assertions in a single runnable script.
+- `06/anonymous_functions_and_enum.exs` - anonymous functions, captures, and practical `Enum` pipelines.
+- `07/with_and_error_handling.exs` - tagged tuple error flow and `with` for clean chaining.
 
 ## Prerequisites
 
@@ -30,14 +32,12 @@ elixir 02/core_data_and_pattern_matching.exs
 elixir 03/modules_and_functions.exs
 elixir 04/control_flow_and_recursion.exs
 elixir 05/exunit_intro.exs
+elixir 06/anonymous_functions_and_enum.exs
+elixir 07/with_and_error_handling.exs
 ```
 
 Expected output:
 
-`01` through `04` print labeled learning examples. `05` runs tests and shows a test summary.
+`01` through `04`, `06`, and `07` print labeled learning examples. `05` runs tests and shows a test summary.
 
-## Notes
-
-- Suggested learning order is `01` -> `02` -> `03` -> `04` -> `05`.
-- After `05`, a good next step is converting this into a Mix project (`mix new`) and moving tests into a `test/` directory.
 
