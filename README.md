@@ -13,6 +13,8 @@ This repository contains small Elixir exercises and scripts.
 - `07/with_and_error_handling.exs` - tagged tuple error flow and `with` for clean chaining.
 - `08/structs_and_updates.exs` - named keys, `defstruct`, pattern matching, and `%{struct | ...}` updates.
 - `09/protocols.exs` - `defprotocol` / `defimpl` and dispatch over different types.
+- `10/tasks_and_concurrency.exs` - `Task.async` / `Task.await` and overlapping work.
+- `11/agent_intro.exs` - `Agent` for small shared state and updates.
 
 ## Prerequisites
 
@@ -38,10 +40,12 @@ elixir 06/anonymous_functions_and_enum.exs
 elixir 07/with_and_error_handling.exs
 elixir 08/structs_and_updates.exs
 elixir 09/protocols.exs
+elixir 10/tasks_and_concurrency.exs
+elixir 11/agent_intro.exs
 ```
 
 Expected output:
 
-`01` through `04`, `06` through `09` print labeled learning examples. `05` runs tests and shows a test summary.
+`01` through `04`, `06` through `11` print labeled learning examples. `05` runs tests and shows a test summary.
 
 
