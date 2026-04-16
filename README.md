@@ -11,6 +11,8 @@ This repository contains small Elixir exercises and scripts.
 - `05/exunit_intro.exs` - basic `ExUnit` assertions in a single runnable script.
 - `06/anonymous_functions_and_enum.exs` - anonymous functions, captures, and practical `Enum` pipelines.
 - `07/with_and_error_handling.exs` - tagged tuple error flow and `with` for clean chaining.
+- `08/structs_and_updates.exs` - named keys, `defstruct`, pattern matching, and `%{struct | ...}` updates.
+- `09/protocols.exs` - `defprotocol` / `defimpl` and dispatch over different types.
 
 ## Prerequisites
 
@@ -34,10 +36,12 @@ elixir 04/control_flow_and_recursion.exs
 elixir 05/exunit_intro.exs
 elixir 06/anonymous_functions_and_enum.exs
 elixir 07/with_and_error_handling.exs
+elixir 08/structs_and_updates.exs
+elixir 09/protocols.exs
 ```
 
 Expected output:
 
-`01` through `04`, `06`, and `07` print labeled learning examples. `05` runs tests and shows a test summary.
+`01` through `04`, `06` through `09` print labeled learning examples. `05` runs tests and shows a test summary.
 
 
