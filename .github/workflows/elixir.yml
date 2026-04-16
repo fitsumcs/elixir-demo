@@ -19,6 +19,9 @@ jobs:
 
     name: Build and test
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: practice
 
     steps:
     - uses: actions/checkout@v4
@@ -30,8 +33,10 @@ jobs:
     - name: Restore dependencies cache
       uses: actions/cache@v3
       with:
-        path: deps
-        key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
+        path: |
+          practice/deps
+          practice/_build
+        key: ${{ runner.os }}-mix-${{ hashFiles('practice/mix.lock') }}
         restore-keys: ${{ runner.os }}-mix-
     - name: Install dependencies
       run: mix deps.get

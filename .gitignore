@@ -1,9 +1,9 @@
-# Mix (when you add a project)
-/_build/
-/cover/
-/deps/
-/doc/
-/.fetch
+# Mix (repo root and subfolders such as practice/)
+_build/
+cover/
+deps/
+doc/
+.fetch
 
 # Hex / Mix artifacts
 *.ez
