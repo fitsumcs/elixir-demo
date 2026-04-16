@@ -15,6 +15,7 @@ This repository contains small Elixir exercises and scripts.
 - `09/protocols.exs` - `defprotocol` / `defimpl` and dispatch over different types.
 - `10/tasks_and_concurrency.exs` - `Task.async` / `Task.await` and overlapping work.
 - `11/agent_intro.exs` - `Agent` for small shared state and updates.
+- `12/genserver_intro.exs` - minimal `GenServer` with `call` and `handle_call`.
 
 ## Prerequisites
 
@@ -42,10 +43,11 @@ elixir 08/structs_and_updates.exs
 elixir 09/protocols.exs
 elixir 10/tasks_and_concurrency.exs
 elixir 11/agent_intro.exs
+elixir 12/genserver_intro.exs
 ```
 
 Expected output:
 
-`01` through `04`, `06` through `11` print labeled learning examples. `05` runs tests and shows a test summary.
+`01` through `04`, `06` through `12` print labeled learning examples. `05` runs tests and shows a test summary.
 
 
