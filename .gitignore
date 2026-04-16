@@ -1,0 +1,15 @@
+# Mix (when you add a project)
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+
+# Hex / Mix artifacts
+*.ez
+
+# Crash dumps
+erl_crash.dump
+
+# ElixirLS / IDE (optional; remove if you want these tracked)
+.elixir_ls/
